@@ -36,10 +36,13 @@ footer{
 }
 
 /* Image style */
-
+.imgContainer{
+    display:flex;
+    gap:0px;
+}
 img{
-    width:50px;
-    display:inline-block;
+    height:100px;
+    width:auto;
     margin-top:10px;
 }
 
